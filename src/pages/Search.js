@@ -11,6 +11,7 @@ function useQuery() {
 
 export default function Search() {
 
+    // The query can come from location.state or from location.search. When the user clicks on '/hedgehogs' or one of the other URL parameter pages in the nav component, a custom location object sends them here with the query terms held in location.state. When the user searches from the search form on any page, the query terms are stored in location.search as query parameters.
     const { state } = useLocation();
     const queryParams = useQuery();
     let theQuery = state || queryParams.get("query");

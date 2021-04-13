@@ -1,13 +1,9 @@
 import React, { createContext, useContext, useState } from 'react';
 
 const initialCache =    {
-    "query terms go here": {
+    "query terms": {
         "pageHeading": "a page heading",
         "data": {"photos": {"blah":"blah"}, "stat": "ok"}
-    }, 
-    "next query": {
-            "pageHeading": "another page heading",
-            "data": {"photos": {"blah":"blah"}, "stat": "ok"}
     }, 
 }
 
