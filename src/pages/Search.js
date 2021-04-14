@@ -15,7 +15,7 @@ export default function Search() {
     const { state } = useLocation();
     const queryParams = useQuery();
     let theQuery = state || queryParams.get("query");
-    console.log("In Search, what is theQuery? ", theQuery)
+    console.log("In Search, theQuery is: ", theQuery)
 
     return (
         <>
