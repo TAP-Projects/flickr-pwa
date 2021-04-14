@@ -1,8 +1,12 @@
-# Create your project
+# Treehouse Flickr PWA Project
+
+This project is the 7th in a series of 10 projects leading to Treehouse's Fullstack Javascript Techdegree. Each project provides a set of instructions like those below.  
+
+# 1. Create your project
 
 Use the create-react-app to set up and create your initial project directory.
 
-## Build your app components
+# 2. Build React Components
 
 Use the index.html file and mockups as a general guide while you create the components of this project.
 
@@ -18,7 +22,7 @@ Some examples of the stateless components you could use for your app are:
 
 Stateful class components will be better suited for your **search form** and **photo container** where data can be managed with state.
 
-## Get a Flickr API key
+# 3. Get a Flickr API key
 
 Create yahoo account/use tumblr account to sign in.
 
@@ -34,7 +38,7 @@ export default apiKey;
 - Import your API key into your application, preferably into src/App.js, and save it to a variable like you would any other module, and use the variable where applicable. That way, your app’s users will only need to enter in an API key once.
 - The config.js file **must** be listed in the .gitignore file
 
-## Routes
+# 4. Routes
 Install React Router and set up your <Route> and <Link> or <NavLink> elements.
 
 Include a "Search" link that includes a search field to let users search for photos.
@@ -49,7 +53,7 @@ Include a "Search" link that includes a search field to let users search for pho
 
 NOTE: When your routing is setup correctly, App.js will have a Switch element, and nested inside of that, you will have separate Route tags for each of your three main topics.
 
-## Requesting the data
+# 5. Requesting the data
 Fetch the data from the Flickr API using the Fetch API or a tool like Axios.
 
 Make sure data fetching and state is managed by a higher-level “container” component, like src/App.js.
@@ -72,11 +76,11 @@ Also, new data does not need to be fetched every time a nav button is clicked. I
 
 NOTE: When you're correctly fetching your data from a container component and passing it down to the display component, and your routing is correctly setup, **the URL in the address bar will match what is displayed on the page regardless of whether you use the nav buttons, the browser's forward and back buttons, or paste a URL directly into the address bar. But for this project, it's okay if pasting a search route URL doesn't display search results.**
 
-## Search
+# 6. Search
 
 Be sure to include a search field feature and a search route to search for new categories of images.
 
-## Displaying the data
+# 7. Displaying the data
 
 Make sure each image gets a unique "key" prop. There should be no console warnings regarding unique "key" props.
 
@@ -86,11 +90,11 @@ The current route should be reflected in the URL.
 
 There should be no more that 24 images displayed.
 
-## CSS styles
+# 8. CSS styles
 
 The mockups are just a general guide for how the elements should be arranged and positioned on the page. But other than general arrangement, spacing and positioning, you are free to experiment with things like color, background color, font, shadows, transitions, animations, etc..
 
-## Exceeds
+# 9. Exceeds
 
 Add a loading indicator that displays each time the app fetches new data. Since the data for the three main topic pages can be requested when the page first loads, it's okay if the loading indicator is only present on the search route.
 
