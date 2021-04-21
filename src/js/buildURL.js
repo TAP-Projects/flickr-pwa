@@ -1,5 +1,5 @@
 // This file is set up for deploy. You'll need to change the string "apiKey" to your actual api key variable which you can import into this file with 
-import { apiKey } from "../config.js";
+// import { apiKey } from "../config.js";
 
 // Plug query parameters into url
 export function buildURL(query) {
