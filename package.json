@@ -2,21 +2,26 @@
     "name": "flickr-pwa",
     "version": "0.0.1",
     "private": true,
+    "engines": {
+        "node": ">=14.5.0"
+    },
     "dependencies": {
         "@testing-library/jest-dom": "^5.11.1",
-        "@testing-library/react": "^10.4.7",
-        "@testing-library/user-event": "^12.0.15",
-        "colorette": "^1.2.1",
-        "css-loader": "^3.6.0",
-        "react": "^16.13.1",
-        "react-dom": "^16.13.1",
+        "@testing-library/react": "^11.2.6",
+        "@testing-library/user-event": "^13.1.2",
+        "colorette": "^1.2.2",
+        "css-loader": "^5.2.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
         "react-router-dom": "^5.2.0",
-        "react-scripts": "^3.4.1",
-        "uuid": "^8.3.0"
+        "react-scripts": "^4.0.3",
+        "serve": "^11.3.2",
+        "uuid": "^8.3.2"
     },
     "scripts": {
         "start": "react-scripts start",
         "build": "CI='' react-scripts build",
+        "serveBuild": "serve --single build --listen 5000",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
